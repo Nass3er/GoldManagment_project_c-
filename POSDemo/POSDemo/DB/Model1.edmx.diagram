@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ebdfdf7d89d349249274d4bf4f83456f" Name="Diagram1">
+        <EntityTypeShape EntityType="POSTutModel.Categories" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.Customer" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.prod_suppl" Width="1.5" PointX="5.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.Product" Width="1.5" PointX="3" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.salesBill" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.salesBillDetails" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.Supplier" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.Users" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="POSTutModel.SalesView" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="POSTutModel.FK_Product_Categories2" ManuallyRouted="false" />
+        <AssociationConnector Association="POSTutModel.FK_salesBill_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="POSTutModel.FK_prod_suppl_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="POSTutModel.FK_prod_suppl_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="POSTutModel.FK_salesBillDetails_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="POSTutModel.FK_salesBill_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="POSTutModel.FK_salesBillDetails_salesBill" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
